@@ -30,7 +30,7 @@ const Cat_count = 5;
 
 async function getCategoryIds() {
 
-    let response = await axios.get(`https://jservice.io/api/categories`, {
+    let response = await axios.get(`http://jservice.io/api/categories`, {
         params: {
             count: 100
         }
@@ -55,7 +55,7 @@ async function getCategoryIds() {
  */
 
 async function getCategory(catId) {
-    let response = await axios.get(`https://jservice.io/api/clues?id=${catId}`)
+    let response = await axios.get(`http://jservice.io/api/clues?id=${catId}`)
 
 
 
