@@ -1,21 +1,30 @@
-/* some colors you may find useful:
-  #115ff4
-  #060ce9
-  #28a200
-  #8d2ab5
-  #74119c
-*/
-
-body {
-  font-family: 'Lato', sans-serif;
-  text-align: center;
-  font-size: 9pt;
-  background: rgb(34,126,229);
-  background: radial-gradient(circle, rgba(34,126,229,1) 0%, rgba(10,67,191,1) 100%);
-  color: white;
-  
+h1 {
+  font-size: xx-large;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(220, 203, 243);
 }
 
+button {
+  background-color: rgb(116, 189, 122);
+  border: double rgb(20, 11, 10);
+  border-radius: 15%;
+  font-size: 12pt;
+  letter-spacing: 2pt;
+  width: 120px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 9pt;
+  background: rgb(34, 126, 229);
+  background: radial-gradient(circle,
+      rgb(172, 142, 118) 0%,
+      rgb(69, 73, 68) 100%);
+  
+
+}
 
 table {
   margin: 0 auto;
@@ -23,6 +32,7 @@ table {
   border-radius: 4px;
   border-collapse: separate;
   border-spacing: 10px;
+  background: rgba(0,0,0,0.2);
 }
 
 .not-allowed {
@@ -32,23 +42,32 @@ table {
 th {
   width: 150px;
   height: 100px;
-  padding: 6px 25px;
+  padding: 6px 20px;
   text-align: center;
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 900;
+  font-size: 15px;
   cursor: default;
-  letter-spacing: .3pt;
+  letter-spacing: 0.5pt;
   border-radius: 4px;
+  border: solid rgb(63, 53, 53);
+  color: rgb(27, 58, 3);
+  background: radial-gradient(circle,
+      rgb(224, 184, 216) 50%,
+      rgb(104, 77, 95) 100%);
 }
 
 td {
   border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.1);
+  
   width: 150px;
   height: 100px;
   padding: 6px 20px;
   text-align: center;
   cursor: pointer;
-  letter-spacing: .4pt;
+  letter-spacing: 0.4pt;
+  color: black;
+  background: radial-gradient(circle,
+      rgb(218, 167, 125) 0%,
+      rgb(82, 89, 116) 100%);
 
 }
